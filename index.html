@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+</head>
+<body>
+    <aside id="menu">
+        <section class="group">
+            <img src="images/animals.jpg">
+            <p>Bring Me The Horizon</p>
+        </section>
+        <section class="group">
+            <img src="images/animals.jpg">
+            <p>Bring Me The Horizon</p>
+        </section>
+        <section class="group">
+            <img src="images/animals.jpg">
+            <p>Bring Me The Horizon</p>
+        </section>
+        <section class="group">
+            <img src="images/animals.jpg">
+            <p>Bring Me The Horizon</p>
+        </section>
+        <section class="group">
+            <img src="images/animals.jpg">
+            <p>Bring Me The Horizon</p>
+        </section>
+        <section class="group">
+            <img src="images/animals.jpg">
+            <p>Bring Me The Horizon</p>
+        </section>   
+    </aside>
+    <main id="app">
+        <header> 
+            <div>
+                <p id="verified"><img id="verified-icon" src="./images/verified.png"><t>Artista Verificado</t></p>
+                <p id="artist-name">Architecs</p>
+                <p id="views"><t>35.239 oyentes mensuales</t></p>
+            </div>
+        </header>
+
+        <section id="actions">
+                <img id="play-pause" src="./images/play.png">
+                <button id="follow">Seguir</button>
+                <details id="show-more">
+                    <summary></summary>
+                    <div>
+                        <button>Seguir</button>
+                        <button>Ir a radio del artista</button>
+                        <button>Denunciar</button>
+                        <button>Compartir</button>
+                    </div>
+                </details>
+        </section>
+
+        <section id="populars">
+            <p class="section-tittle">Populares</p>
+            <article class="song">
+                <div class="number-image-tittle">
+                    <p class="song-number">1</p>
+                    <img class="song-image" src="./images/animals.jpg">
+                    <p class="song-tittle">Animals</p>
+                </div>
+                <p class="song-views">78.713.077</p>
+                <p class="song-duration">4:04</p>
+            </article>
+            <article class="song">
+                <div class="number-image-tittle">
+                    <p class="song-number">2</p>
+                    <img class="song-image" src="./images/animals.jpg">
+                    <p class="song-tittle">Doomsday</p>
+                </div>
+                <p class="song-views">78.713.077</p>
+                <p class="song-duration">4:04</p>
+            </article>
+            <article class="song">
+                <div class="number-image-tittle">
+                    <p class="song-number">3</p>
+                    <img class="song-image" src="./images/animals.jpg">
+                    <p class="song-tittle">Deep fake</p>
+                </div>
+                <p class="song-views">78.713.077</p>
+                <p class="song-duration">4:04</p>
+            </article>
+            <article class="song">
+                <div class="number-image-tittle">
+                    <p class="song-number">4</p>
+                    <img class="song-image" src="./images/animals.jpg">
+                    <p class="song-tittle">Black Lungs</p>
+                </div>
+                <p class="song-views">78.713.077</p>
+                <p class="song-duration">4:04</p>
+            </article>
+            <article class="song">
+                <div class="number-image-tittle">
+                    <p class="song-number">5</p>
+                    <img class="song-image" src="./images/animals.jpg">
+                    <p class="song-tittle">Meteor</p>
+                </div>
+                <p class="song-views">78.713.077</p>
+                <p class="song-duration">4:04</p>
+            </article>
+        </section>
+
+        <section id="albums">
+            <p class="section-tittle">Discografía</p>
+            <article class="album">
+                <div class="play-img">
+                    <img class="album-play" src="images/play.png">
+                    <img class="album-img" src="images/animals.jpg">
+                </div>
+                <p class="album-tittle">For Those</p>
+                <p class="album-release">2021 . Álbum</p>
+            </article>
+            <article class="album">
+                <div class="play-img">
+                    <img class="album-play" src="images/play.png">
+                    <img class="album-img" src="images/holyhell.webp">
+                </div>
+                <p class="album-tittle">Holy Hell</p>
+                <p class="album-release">2018 . Álbum</p>
+            </article>
+            <article class="album">
+                <div class="play-img">
+                    <img class="album-play" src="images/play.png">
+                    <img class="album-img" src="images/lost.webp">
+                </div>
+                <p class="album-tittle">a wasted hymn</p>
+                <p class="album-release">2019 . Álbum</p>
+            </article>
+            <article class="album">
+                <div class="play-img">
+                    <img class="album-play" src="images/play.png">
+                    <img class="album-img" src="images/doomsdayp.webp">
+                </div>
+                <p class="album-tittle">we were young</p>
+                <p class="album-release">2022 . Álbum</p>
+            </article>
+            <article class="album">
+                <div class="play-img">
+                    <img class="album-play" src="images/play.png">
+                    <img class="album-img" src="images/doomsday.webp">
+                </div>
+                <p class="album-tittle">doomsday</p>
+                <p class="album-release">2017 . Álbum</p>
+            </article>
+        </section>
+
+        <section id="music-player">
+            <img id=img-player src="images/animals.jpg">
+            <p id="current-song-name">Animals</p>
+            <audio id="player" controls>
+                <source src="audio/animals.mp3" type="audio/mp3">
+            </audio>
+        </section>
+        
+    </main>
+    <script src="js.js"></script>
+</body>
+</html>
